@@ -1,3 +1,17 @@
+<?php 
+
+
+session_start();
+
+ ?>
+
+
+
+
+
+
+
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -19,7 +33,7 @@
 </script>
 
 					<header id="header" class="alt">
-					<h1><a href="ACCEUIL.html"</a></h1>
+					<h1><a href="index.php"</a></h1>
 					    <img src="images/logo.png">
 						<nav id="nav">
 							<ul>
@@ -27,10 +41,13 @@
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
+											<li><a href="index.php">Home</a></li>
 											<li><a href="REJOIGNIEZ-NOUS.html">Modules of the first semester</a></li>
 											<li><a href="QUI SOMMES-NOUS.html">Chat</a></li>
 											<li><a href="CONTACTEZ-NOUS.html">Contact us</a></li>
+											<li><a href="profil.php">Profil</a></li>
+											<li><a href="deconnexion.php">Log out</a></li>
+											<li><a href="indexus.php">Forum</a></li>
 										</ul>
 									</div>
 								</li>
@@ -43,7 +60,11 @@
 							<h2>Parasitology</h2>
 							<p>Students of usthb can find here everything related to parasitology
 							</p>
-							
+							<div id="iPng">
+                            <a href="register.php"><img class="logo" src="images/add.png">Register</a>
+                            <p>&nbsp;</p>
+                            <a href="connexion.php"><img class="logo" src="images/find.png">Connexion</a>	
+							</div>
 						</div>
 						</br>
 					</section> 
